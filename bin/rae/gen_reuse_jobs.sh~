@@ -1,0 +1,47 @@
+#!/bin/bash
+
+: ${4?"usage: ${0} <MAIL_OPTIONS> <USER_LIST> <MAX_SENTENCE_LENGTH> <MAX_ITER>"}
+
+
+PBS_SCRIPT="run_reuse.pbs"
+
+MAIL_OPTIONS=${1}
+USER_LIST=${2}
+MAX_SENTENCE_LENGTH=${3}
+MAX_ITER=${4}
+
+m="${MAIL_OPTIONS}"
+M="${USER_LIST}"
+
+l="walltime=50:00:00"
+
+declare -a projects=("ant-1.8.2" "antlr-3.4" "argouml-0.34" "hadoop-1.1.2"  "hibernate-4.2.0" "jhotdraw-7.5.1" "maven-3.0.5" "pmd-4.2.5" "tomcat-7.0.2")
+declare -a representations=("ast")
+
+for project in "${projects[@]}"; do
+	for rep in "${representations[@]}"; do
+	
+		ODIR="../../out/reuse/rae/$project/$rep"	
+	
+		#Set qsub arguments 
+		F="${ODIR}}"
+		#wt=${walltimes[${project}]}
+		#l="walltime=${wt}"
+		o="${ODIR}/simil.pbs.log"
+		jobName="PRE_$project.$rep"
+		
+		#Submit job
+		qsub $PBS_SCRIPT -F "${F}" -l ${l} -m ${m} -M ${M} -N ${jobName} -o ${o}
+	    
+	    sleep 5;
+	done
+done
+	
+	
+    
+
+	
+
+	
+
+	
