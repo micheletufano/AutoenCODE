@@ -3,13 +3,13 @@ AutoenCODE is a Deep Learning infrastructure that allows to *encode* source code
 
 This repository contains code, data, and instructions on how to learn sentence-level embeddings for a given textual corpus (source code, or any other textual corpus). 
 The learned embeddings (i.e., continous-valued vectors) can then be used to identify similarities among the sentences in the corpus.
-AutoenCODE uses a Neural Network Language Model ([word2vec](https://arxiv.org/pdf/1301.3781.pdf)[1]), which pre-trains word embeddings in the corpus, and a *Recursive* Neural Network ([Recursive Autoencoder](http://ai.stanford.edu/~ang/papers/emnlp11-RecursiveAutoencodersSentimentDistributions.pdf)[2]) that recursively combines embeddings to learn sentence-level embeddings.
+AutoenCODE uses a Neural Network Language Model ([word2vec](https://arxiv.org/pdf/1301.3781.pdf)[3]), which pre-trains word embeddings in the corpus, and a *Recursive* Neural Network ([Recursive Autoencoder](http://ai.stanford.edu/~ang/papers/emnlp11-RecursiveAutoencodersSentimentDistributions.pdf)[4]) that recursively combines embeddings to learn sentence-level embeddings.
 
 AutoenCODE was built by [Martin White](http://www.cs.wm.edu/~mgwhite/) and [Michele Tufano](http://www.cs.wm.edu/~mtufano/) and used and adapted in the context of the following research projects. If you are using AutoenCODE for research purposes, please cite:
 - [1] Deep Learning Code Fragments for Code Clone Detection
 - [2] Deep Learning Similarities from Different Representations of Source Code
 
-The repository contains the original source code for [word2vec](https://arxiv.org/pdf/1301.3781.pdf)[1] and a forked/modified implementation of a [Recursive Autoencoder](http://ai.stanford.edu/~ang/papers/emnlp11-RecursiveAutoencodersSentimentDistributions.pdf)[2]. Please refer to the bibliography section to appropriately cite the following papers:
+The repository contains the original source code for [word2vec](https://arxiv.org/pdf/1301.3781.pdf)[3] and a forked/modified implementation of a [Recursive Autoencoder](http://ai.stanford.edu/~ang/papers/emnlp11-RecursiveAutoencodersSentimentDistributions.pdf)[4]. Please refer to the bibliography section to appropriately cite the following papers:
 
 - [3] Efficient Estimation of Word Representations in Vector Space
 - [4] Semi-supervised Recursive Autoencoders for Predicting Sentiment Distributions
