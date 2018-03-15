@@ -113,7 +113,19 @@ cd rae/
 #### [2] Deep Learning Similarities from Different Representations of Source Code
 
 ```
-Coming soon
+@inproceedings{Tufano:MSR:2018,
+ author = {Tufano, Michele and Watson, Cody and Bavota, Gabriele and Di Penta, Massimiliano and White, Martin and Poshyvanyk, Denys},
+ title = {Deep Learning Similarities from Different Representations of Source Code},
+ booktitle = {Proceedings of the 15th International Conference on Mining Software Repositories},
+ series = {MSR '18},
+ year = {2018},
+ isbn = {978-1-4503-5716-6/18/05},
+ location = {Gothenburg, Sweden},
+ url = {https://doi.org/10.1145/3196398.3196431},
+ doi = {10.1145/3196398.3196431},
+ publisher = {ACM},
+ keywords = {deep learning, code similarities, neural networks}
+}
 ```
 
 
