@@ -170,7 +170,7 @@ cd rae/
  address = {Stroudsburg, PA, USA},
 } 
 ```
-# Acknowledges
+# Acknowledgements
 We gratefully acknowledge financial support from the NSF on this research project.
 
 
