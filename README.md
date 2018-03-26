@@ -170,3 +170,10 @@ cd rae/
  address = {Stroudsburg, PA, USA},
 } 
 ```
+# Acknowledges
+We gratefully acknowledge financial support from the NSF on this research project.
+
+
+<p align="center">
+  <img src="https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png" width="150"/>
+</p>
