@@ -7,7 +7,7 @@ AutoenCODE uses a Neural Network Language Model ([word2vec](https://arxiv.org/pd
 
 AutoenCODE was built by [Martin White](http://www.cs.wm.edu/~mgwhite/) and [Michele Tufano](http://www.cs.wm.edu/~mtufano/) and used and adapted in the context of the following research projects. If you are using AutoenCODE for research purposes, please cite:
 - [1] Deep Learning Code Fragments for Code Clone Detection [[paper](http://www.cs.wm.edu/~mtufano/publications/C5.pdf), [website](https://sites.google.com/site/deeplearningclone/home)]
-- [2] Deep Learning Similarities from Different Representations of Source Code [[website](https://sites.google.com/view/learningcodesimilarities/home)]
+- [2] Deep Learning Similarities from Different Representations of Source Code [[paper](http://www.cs.wm.edu/~mtufano/publications/C9.pdf), [website](https://sites.google.com/view/learningcodesimilarities/home)]
 
 The repository contains the original source code for [word2vec](https://arxiv.org/pdf/1301.3781.pdf)[3] and a forked/modified implementation of a [Recursive Autoencoder](http://ai.stanford.edu/~ang/papers/emnlp11-RecursiveAutoencodersSentimentDistributions.pdf)[4]. Please refer to the bibliography section to appropriately cite the following papers:
 
@@ -88,7 +88,7 @@ cd rae/
 
 # Bibliography
 
-#### [1] Deep Learning Code Fragments for Code Clone Detection
+#### [1] Deep Learning Code Fragments for Code Clone Detection [[paper](http://www.cs.wm.edu/~mtufano/publications/C5.pdf), [website](https://sites.google.com/site/deeplearningclone/home)]
 
 ```
 @inproceedings{White:2016:DLC:2970276.2970326,
@@ -110,7 +110,7 @@ cd rae/
 } 
 ```
 
-#### [2] Deep Learning Similarities from Different Representations of Source Code
+#### [2] Deep Learning Similarities from Different Representations of Source Code [[paper](http://www.cs.wm.edu/~mtufano/publications/C9.pdf), [website](https://sites.google.com/view/learningcodesimilarities/home)]
 
 ```
 @inproceedings{Tufano:MSR:2018,
